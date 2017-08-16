@@ -1,0 +1,269 @@
+/*{
+	font-family: 'Oswald', sans-serif;
+}*/
+
+@font-face{
+	font-family: Cooper-Hewitt;
+	font-style: normal;
+	font-weight: medium;
+	src: url('CooperHewitt-Medium.woff');
+}
+
+@font-face{
+	font-family: Cooper-Hewitt-Bold;
+	font-style: normal;
+	font-weight: bold;
+	src: url('CooperHewitt-Bold.woff');
+}
+
+@font-face{
+	font-family: Cooper-Hewitt-Book-Italic;
+	font-style: book;
+	font-weight: italic;
+	src: url('CooperHewitt-BookItalic.woff');
+}
+
+@font-face{
+	font-family: Cooper-Hewitt-Book;
+	font-style: book;
+	font-weight: normal;
+	src: url('CooperHewitt-Book.woff');
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif !important;
+	text-align: center;
+}
+
+/* menu */
+.item, #tag {
+	text-transform: uppercase !important;
+	font-family: 'Montserrat', sans-serif  !important;
+	/*font-weight: bold !important;*/
+}
+
+
+.ui.secondary.pointing.menu {
+	text-align: center;
+	background-color: white;
+}
+
+/* title */
+#title {
+	min-height: 25%;
+	background-color: #4c8577;
+	margin-bottom: 0 !important;
+}
+
+#robot {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#eqr {
+	text-align: left !important;
+	font-size: 2.5em;
+	color: white;
+}
+
+#tag {
+	font-size: 1em;
+}
+
+/* current state */
+#current, #history, #implications, #solutions, #resources, .sxn {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.cont {
+	font-family: 'Cooper-Hewitt-Book';
+	text-align: center;
+	font-size: 18px;
+	text-transform: initial;
+}
+
+/* change */
+.change {
+	margin-bottom: 0 !important;
+	color: #2f4550;
+	padding-top: 8px;
+}
+
+.sub {
+	text-transform: uppercase !important;
+	font-family: 'Montserrat', sans-serif  !important;
+	font-weight: bold !important;
+	text-align: center;
+	margin-top: 0 !important;
+	color: #db5461;
+}
+
+.ui.tab.segment, .ui.fluid.card {
+	font-family: 'Cooper-Hewitt-Book';
+	font-size: 18px !important;
+}
+
+.ui.fluid.card {
+	color: white;
+}
+
+#dvd {
+	background-color: #2f4550;
+}
+
+#inc {
+	background-color: #4c8577;
+}
+
+#sol {
+	background-color: #db5461;
+}
+
+#dvd .cite {
+	color: #829191;
+}
+
+#sol .cite, #inc .cite {
+	color: #2f4550;
+}
+
+.headers {
+	font-family: 'Cooper-Hewitt';
+	font-size: 20px;
+	text-transform: initial;
+}
+
+#revs {
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.cite {
+	font-family: 'Cooper-Hewitt-Book';
+	text-align: center;
+	font-size: 14px;
+}
+
+#soln {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#desk {
+	text-align: center;
+}
+
+#desk img {
+	height: 250px;
+}
+
+#implications, #resources {
+	background-color: rgba(138, 162, 158, 0.1);
+}
+
+#history {
+	background-color: rgba(130, 145, 145, 0.4);
+}
+
+#cent {
+	background-color: #2f4550;
+	color: white;
+}
+
+#sol-seg1 {
+	border-color: #2f4550;
+	border-width: 3px;
+}
+
+#sol-seg2 {
+	border-color: #4c8577;
+	border-width: 3px;
+}
+
+#sol-seg3 {
+	border-color: #db5461;
+	border-width: 3px;
+}
+
+#sol-seg4 {
+	border-color: #8aa29e;
+	border-width: 3px;
+}
+
+#sol-seg5 {
+	border-color: #829191;
+	border-width: 3px;
+}
+
+
+/*--------------------------------------------------------------
+	tablet screen
+	css
+	customizations
+--------------------------------------------------------------*/
+
+@media screen and ( min-width: 800px ) {
+	#eqr {
+		font-size: 6em;
+	}
+
+	#tag {
+		font-size: 1.5em;
+	}
+
+	.change {
+		font-size: 3em;
+	}
+
+	.sub {
+		font-size: 2em;
+	}
+
+	#desk img {
+		height: 350px;
+	}
+
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+	larger screen
+	css
+	customizations
+--------------------------------------------------------------*/
+
+@media screen and ( min-width: 1150px ) {
+	#eqr {
+		font-size: 8em;
+	}
+
+	#tag {
+		font-size: 2em;
+	}
+
+	.change {
+		font-size: 4em;
+	}
+
+	.sub {
+		font-size: 2.5em;
+	}
+
+	#desk img {
+		height: 450px;
+	}
+
+	.ui.fluid.card {
+		height: 429px;
+	}
+
+}
