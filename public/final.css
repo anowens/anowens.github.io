@@ -209,7 +209,7 @@ h1 {
 }
 
 #large {
-	display: none;
+	display: none !important;
 }
 
 /*--------------------------------------------------------------
@@ -240,11 +240,11 @@ h1 {
 	}
 
 	#small {
-		display: none;
+		display: none !important;
 	}
 
 	#large {
-		display: initial;
+		display: initial !important;
 	}
 
 }
