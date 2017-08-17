@@ -205,7 +205,11 @@ h1 {
 }
 
 #wage {
-	max-width: 100%;
+	max-width: 100% !important;
+}
+
+#large {
+	display: none;
 }
 
 /*--------------------------------------------------------------
@@ -235,6 +239,13 @@ h1 {
 		height: 350px;
 	}
 
+	#small {
+		display: none;
+	}
+
+	#large {
+		display: initial;
+	}
 
 }
 
